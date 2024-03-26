@@ -1,0 +1,299 @@
+body {
+  background-color: #131313;
+}
+
+.logga {
+  padding: 40px;
+}
+
+h1 {
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+  
+h2 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+.aboutcornea {
+  font-size: 17px ;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#custom {
+  max width: 100%;
+  height: 100%;
+  position: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.nav ul {
+  float: left;
+  background-color: black;
+}
+
+.nav li {
+  display: block;
+  margin:0 auto;
+  float: none;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+  color: grey;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#nere{
+  background-color: #3a3a3a ;
+  clear: both;
+}
+
+#textnere{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logganere {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%; 
+}
+
+.collection_name {
+  font-size: 40px;
+  text-align: right;
+  font-style: italic;
+  color: white;
+  letter-spacing: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo_frontpage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 200px;´
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+#gulkedja {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  padding-bottom: 50px;
+}
+
+#center_text_about {
+  padding: 5px 400px;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 1.6%;
+  float: left;
+  padding-bottom: 5%;
+}
+
+#padding_bottom {
+  padding-bottom: 50px;
+}
+
+.rödkedja{
+  padding-top: -100px;
+  padding-left: 80px;
+  width: 35%;
+  float: left;
+}
+
+.contact_text {
+  font-size: 20px ;
+  color: white;
+  text-align: center;
+}
+
+#insta {
+  width: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -10;
+}
+
+.logo_startpage {
+  position: center; 
+}
+
+.launched{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  padding: 40px;
+  text-align: right;
+}
+
+.smiley {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.text_on_vid {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hela {
+  position: relative;
+}
+
+.rubriken {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.know_more{
+  color: white;
+  text-align: right;
+  padding-right: 20%;
+  padding-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+*{
+  margin: 5px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+  text-align: center;
+  background:  #131313;
+  padding-bottom: 5%;
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: yellow;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+#myform {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
